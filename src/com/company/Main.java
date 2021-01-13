@@ -1,9 +1,17 @@
 package com.company;
 
+import java.time.LocalDate;
+import java.util.Date;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("testingCommit - X64");
-        System.out.println("i think im getting the hang of this");
+
+        Date date = new Date();
+        LocalDate date1 =  LocalDate.now();
+
+        System.out.println(date);
+        System.out.println(date1);
     }
+
 }
