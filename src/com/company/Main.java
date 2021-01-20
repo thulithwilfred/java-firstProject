@@ -32,10 +32,10 @@ public class Main {
 
         System.out.println(person1.age.equals(person3.age));
 
-        /* printDate();
+         printDate();
         Scanner scanned = new Scanner(System.in);
         int reVal = getUserInput(scanned);
-        System.out.println("GoodBye" + ", RetVal:" + reVal); */
+        System.out.println("GoodBye" + ", RetVal:" + reVal);
 
     }
 
